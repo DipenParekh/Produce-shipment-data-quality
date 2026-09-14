@@ -1,0 +1,11 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+SQL2025-SSEI-StdDev.exe
+msodbcsql.msi
+
+.env
+*.log

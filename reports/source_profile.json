@@ -1,0 +1,52 @@
+{
+  "products.csv": {
+    "record_count": 5,
+    "missing_values_by_column": {
+      "product_id": 0,
+      "product_name": 0,
+      "unit": 0
+    },
+    "duplicate_ids": {},
+    "extra_duplicate_rows": 0
+  },
+  "shipments.csv": {
+    "record_count": 501,
+    "missing_values_by_column": {
+      "shipment_id": 1,
+      "product_id": 0,
+      "shipment_date": 0,
+      "shipped_kg": 0
+    },
+    "duplicate_ids": {
+      "S0050": 2
+    },
+    "extra_duplicate_rows": 1,
+    "quantity_profile": {
+      "column": "shipped_kg",
+      "minimum": "-50",
+      "maximum": "1000",
+      "negative_count": 1,
+      "invalid_numeric_count": 0
+    }
+  },
+  "receipts.csv": {
+    "record_count": 481,
+    "missing_values_by_column": {
+      "receipt_id": 1,
+      "shipment_id": 0,
+      "receipt_date": 0,
+      "received_kg": 0
+    },
+    "duplicate_ids": {
+      "R0100": 2
+    },
+    "extra_duplicate_rows": 1,
+    "quantity_profile": {
+      "column": "received_kg",
+      "minimum": "-10",
+      "maximum": "1000",
+      "negative_count": 1,
+      "invalid_numeric_count": 0
+    }
+  }
+}
